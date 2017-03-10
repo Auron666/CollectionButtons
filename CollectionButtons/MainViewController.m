@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
  
-    [self.view setBackgroundColor:[UIColor blueColor]];
+    self.title = @"CollectionButtons";
     
     CGRect rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     
